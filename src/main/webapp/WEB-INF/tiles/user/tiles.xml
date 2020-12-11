@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="userTemplate"
+		template="/WEB-INF/views/templates/userTemplate.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	
+	<definition name="home.index" extends="userTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/home/index.jsp" />
+	</definition>
+	
+	<definition name="product.detail" extends="userTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/product/detail.jsp" />
+	</definition>
+	
+	<definition name="product.products" extends="userTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/product/products.jsp" />
+	</definition>
+	
+	<definition name="cart.index" extends="userTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/cart/index.jsp" />
+	</definition>
+	
+	<definition name="cart.checkout" extends="userTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/cart/checkout.jsp" />
+	</definition>
+	<definition name="account.myaccount" extends="userTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/account/myaccount.jsp" />
+	</definition>
+	
+	<definition name="account.login" template="/WEB-INF/views/user/account/login.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	<definition name="account.register" template="/WEB-INF/views/user/account/register.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	<definition name="account.accessDenied" template="/WEB-INF/views/user/account/accessDenied.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	
+	
+	<definition name="cart.orderdetail" extends="userTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/cart/orderdetail.jsp" />
+	</definition>
+	
+	<definition name="other.payment" extends="userTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/other/payment.jsp" />
+	</definition>
+	<definition name="other.shipping" extends="userTemplate">
+		<put-attribute name="content" value="/WEB-INF/views/user/other/shipping.jsp" />
+	</definition>
+	
+</tiles-definitions>

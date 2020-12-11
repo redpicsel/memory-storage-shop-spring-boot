@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<!-- LOGIN/LOGOUT -->
+	<definition name="admin.dashboard.login"
+		extends="emptyTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/account/login.jsp" />
+	</definition>
+	<definition name="admin.dashboard.register"
+		extends="emptyTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/account/register_admin.jsp" />
+	</definition>
+	<definition name="admin.dashboard.accessDenied"
+		extends="emptyTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/account/accessDenied.jsp" />
+	</definition>
+	<!-- WELCOME -->
+	<definition name="admin.dashboard.welcome"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/welcome.jsp" />
+	</definition>
+	<definition name="admin.dashboard.viewall"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/view_all_product.jsp" />
+	</definition>
+	<definition name="admin.dashboard.viewallbrand"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/view_all_brand.jsp" />
+	</definition>
+	<definition name="admin.dashboard.viewallcategory"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/view_all_category.jsp" />
+	</definition>
+	<!-- VIEW USER -->
+	<definition name="admin.dashboard.viewalluser"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/view_all_user.jsp" />
+	</definition>
+	<!-- VIEW ADMIN -->
+	<definition name="admin.dashboard.viewadmin"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/view_admin_account.jsp" />
+	</definition>
+	<definition name="admin.dashboard.addproduct"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/add_product.jsp" />
+	</definition>
+	<definition name="admin.dashboard.addnewbrand"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/add_brand.jsp" />
+	</definition>
+	<definition name="admin.dashboard.addnewcategory"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/add_category.jsp" />
+	</definition>
+	<definition name="admin.dashboard.editproduct"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/edit_product.jsp" />
+	</definition>
+	<definition name="admin.dashboard.vieworderDetail"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/view_orderDetail.jsp" />
+	</definition>
+	<definition name="admin.dashboard.viewphoto"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/view_image.jsp" />
+	</definition>
+
+	<definition name="admin.dashboard.changepassword"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/changepassword.jsp" />
+	</definition>
+	<definition name="admin.dashboard.viewprofile"
+		extends="adminTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard/view_profile.jsp" />
+	</definition>
+
+</tiles-definitions>

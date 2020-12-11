@@ -1,0 +1,108 @@
+.text2line {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.menu-child
+{
+	background: white;
+	float: right;
+	margin-right: 2%;
+	margin-top: -25px;
+}
+.menu-child li
+{
+	float: left;
+	margin: 5px 10px;
+}
+.view-cart{
+	padding-top: 6px;
+}
+.menu-active{
+	color: #F8694A;
+}
+.menu-child-category{
+	margin-left: 20px;
+}
+.heading{
+	display: block;
+    text-align: center;
+    position: relative;
+    padding: 0 0px 15px 0;
+}
+.heading h2{
+	margin: 0px;
+    font-size: 24px;
+    font-family: 'UTM';
+    line-height: 36px;
+    color: #444;
+    padding: 0px 20px;
+    background-color: #fff;
+    display: inline-block;
+    z-index: 9;
+    position: relative;
+}
+.title-head
+{
+	font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 9px;
+    color: #444;
+    text-decoration: none;
+}
+.line{
+	    content: " ";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    line-height: 36px;
+    left: 0px;
+    background: #ebebeb;
+    top: 38%;
+}
+.brand-item{
+	margin:0 5px;
+	position: relative;
+	display: block;
+}
+.information
+{
+    margin: 20px 0px;
+}
+.information ul
+{
+	 list-style-type: none;
+}
+.information ul li
+{
+	line-height: 22px;
+    font-family: 'Arial',sans-serif;
+    color: rgb(136, 136, 136);
+}
+.information ul li:last-child
+{
+	font-weight: bold;
+}
+.information ul li:before
+{
+    content: "\f058";
+    font-family: "FontAwesome";
+    color: #64c343;
+    left: 0px;
+    top: 0;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.bannerdown .banner > img
+{
+	height: 250px;
+}
+
+.paymentstrong{
+	font-size: 14px;
+    color: #e74c3c;
+    font-weight: 700;
+    line-height: 1.7;
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+}
